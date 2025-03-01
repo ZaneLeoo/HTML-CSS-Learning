@@ -1,0 +1,116 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+  border: 3px solid black;
+  position: relative;
+}
+
+/* 伪元素本身是 BLOCK 的,根据文本适应大小 */
+.container::after {
+  content: "促销";
+  text-align: center;
+  background-color: orange;
+  padding: 10px 20px;
+  position: absolute;
+  top: -20px;
+  left: -30px;
+  letter-spacing: 2px;
+}
+
+.title {
+  background-color: #f7f7f7;
+  padding: 10px;
+  text-align: center;
+}
+
+.price {
+  font-size: 25px;
+}
+
+.delivery-price {
+  font-size: 15px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.copywirter {
+  margin-bottom: 10px;
+}
+
+.more-info-link:link {
+  color: black;
+}
+.more-info-link:hover {
+  text-decoration: none;
+}
+
+.desc-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.colors {
+  margin-bottom: 15px;
+}
+
+.color {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 8px;
+}
+
+.color:last-child {
+  margin-right: 0px;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.color-pink {
+  background-color: pink;
+}
+
+.color-white {
+  background-color: green;
+}
+
+.color-black {
+  background-color: black;
+}
+color-red ul {
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+li {
+  padding: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-size: 15px;
+}
+button:hover {
+  background-color: white;
+  color: black;
+}
