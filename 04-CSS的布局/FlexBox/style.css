@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 15px solid rgb(30, 117, 204);
+}
+
+.article {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+footer {
+  border-top: 1px solid black;
+  margin: 10px 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: rgb(30, 117, 204);
+}
+h2 {
+  color: rgb(30, 117, 204);
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+p {
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 2;
+}
+
+.recommend-article {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+  padding: 20px;
+  align-items: center;
+}
+
+.recommend-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.recommend-title {
+  text-align: center;
+}
+
+#header-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(213, 213, 213);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+article {
+  position: relative;
+  width: 75%;
+}
+
+article::after {
+  content: "TOP";
+  background-color: yellow;
+  padding: 5px 15px;
+  position: absolute;
+  top: 0;
+  right: 30;
+}
+
+nav {
+  display: flex;
+  gap: 30px;
+}
+
+.article-header {
+  margin-bottom: 20px;
+}
+
+.header-html,
+.header-why {
+  margin: 10px 0;
+}
+
+aside {
+  background-color: gainsboro;
+  border-top: 5px solid rgb(30, 117, 204);
+}
+
+ol,
+ul {
+  padding-left: 30px;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  color: red;
+}
+
+.nav-a {
+  background-color: rgb(244, 244, 244);
+  color: rgb(63, 131, 238);
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* a:visited {
+  color: rgb(112, 104, 105);
+} */
+
+/* a:active {
+  color: blue;
+  text-decoration: underline;
+} */
+
+a:link {
+  color: rgb(30, 117, 204);
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.img-code {
+  margin-bottom: 20px;
+}

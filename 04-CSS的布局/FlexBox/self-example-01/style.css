@@ -1,0 +1,34 @@
+.container {
+  background-color: aliceblue;
+  width: 800px;
+  display: flex;
+  gap: 20px;
+  margin: 100px auto;
+  border: 2px solid black;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(255, 217, 179);
+  height: 500px;
+  flex-grow: 1;
+  margin: 20px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(35, 132, 218);
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  margin: 50px 0;
+}
+
+.main-title {
+  text-align: center;
+  margin-top: 60px;
+}

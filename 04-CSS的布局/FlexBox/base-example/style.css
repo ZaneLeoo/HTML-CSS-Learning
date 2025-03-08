@@ -1,0 +1,42 @@
+.container {
+  background-color: gainsboro;
+  width: 750px;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* gap: 20px; */
+  text-align: center;
+}
+
+.el {
+  /* flex-grow: 0; */
+  /* flex-shrink: 1;
+  flex-basis: 200px; */
+  flex: 0 1 200px;
+}
+
+.el-1 {
+  background-color: aquamarine;
+  height: 100px;
+}
+
+.el-2 {
+  background-color: rgb(96, 213, 90);
+}
+
+.el-3 {
+  background-color: rgb(67, 117, 217);
+}
+
+.el-4 {
+  background-color: rgb(221, 184, 73);
+}
+
+.el-5 {
+  background-color: rgb(233, 102, 41);
+}
+
+.el-6 {
+  background-color: rgb(171, 36, 195);
+}

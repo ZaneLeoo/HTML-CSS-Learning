@@ -1,0 +1,135 @@
+* {
+  padding: 0;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.container {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 25px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  color: rgb(26, 137, 235);
+  float: left;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+p {
+  font-size: 16px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+#recommend-article {
+  list-style: none;
+}
+
+.header-main {
+  background-color: rgba(193, 193, 193, 0.9);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.header-main::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.article-header {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+.header-html,
+.header-why {
+  margin: 10px 0;
+}
+
+article {
+  float: left;
+  width: 65%;
+}
+
+aside {
+  width: 30%;
+  padding: 10px;
+  background-color: gainsboro;
+  border: 5px solid rgb(97, 186, 216);
+  float: right;
+  /* 改变盒子的默认行为,整个盒子的 width height 有我们设定的为准 */
+  box-sizing: border-box;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+ol,
+ul {
+  padding-left: 30px;
+}
+
+li:first-child {
+  font-weight: bold;
+}
+
+li:last-child {
+  color: red;
+}
+
+article header p:last-child {
+  color: rgb(175, 175, 42);
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(112, 104, 105);
+}
+
+a:active {
+  color: blue;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+nav {
+  float: right;
+  padding-top: 5px;
+  margin-right: 50px;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+
+.author {
+  float: left;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  padding-top: 10px;
+}
+
+.author-img {
+  float: left;
+}
